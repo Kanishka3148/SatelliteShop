@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+.logo img {
+    width: 50%;
+    filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+    border-radius: 49%;
+}
+
+.topbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*position: sticky;*/
+    top: 0;
+    cursor: pointer;
+}
+
+.listonav {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listonav li {
+    list-style: none;
+    padding: 10px 25px;
+    font-size: 22px;
+}
+
+.listonav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.listonav li a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.rightside {
+    width: 50%;
+    text-align: right;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7)url('../img/photo.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.division {
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 50%;
+    margin: auto;
+    height: 70%;
+}
+
+.first {
+    height: 90vh;
+}
+
+.left {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 7px;
+}
+
+.right {
+    width: 50%;
+}
+
+.right img {
+    width: 120%;
+    border-radius: 150%;
+    display: block;
+    margin: auto;
+    filter: drop-shadow(0 0 0.75rem rgb(43, 43, 43));
+}
+
+.heading {
+    font-size: 40px;
+}
+
+.context {
+    font-size: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 20px 40px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    background: none;
+    border-color: seashell;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    background-color: rgb(233, 233, 233);
+}
+
+.headline {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+}
+
+.t1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px 0px;
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+}
+
+.addbox {
+    width: 100%;
+    height: 100%;
+}
+
+.btnhover {
+    width: 100%;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.box:hover .btnhover {
+    opacity: 1;
+}
